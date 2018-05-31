@@ -1,0 +1,10 @@
+Flume is data ingestion mechanism used to collect,aggregat and transporting the large amount of streaming data such as logs or events from the various servers to centralized data store.
+
+data is collected from the different data generators such as facebook,twitter or other various servers by a flume agent,from this agent which is aggregated and pushed into centerlized store such as HDFS or Hbase 
+ 
+               _______________	    ____________      __________________ 
+	      |data generators|_____|flume Agent|_____| HDFS or Hbase	|	|
+	      |_______________|	    |___________|     |_________________|
+
+
+
